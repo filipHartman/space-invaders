@@ -32,7 +32,7 @@ references role (role_ID);
 insert into role(role_id, role)  values (1, 'ADMIN');
 insert into role(role_id, role)  values (2, 'USER');
 
-insert into user(user_id, email, password, name, last_name, active) values(0, 'admin@admin.pl', '$2a$10$b8j83ZnPHfCc3/QbadBKz.UyAORqmeodZKQgp9vhvoBhaUU/mJ6mO', 'admin_paw', 'admin_dady', true);
+insert into user(user_id, email, password, name, last_name, active) values(0, 'admin@admin.pl', '$2a$10$enPPne6ybJoWLKY3TZrPeeoXCusB.FYLUYo3fyUYAgugAqYVGnCGW', 'admin_paw', 'admin_dady', true);
 
 insert into user_role(user_id, role_id) VALUES (0, 1);
 

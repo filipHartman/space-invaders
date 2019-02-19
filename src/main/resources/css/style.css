@@ -23,16 +23,6 @@ html,body{
     background-color: rgba(0,0,0,0.5) !important;
 }
 
-.social_icon span{
-    font-size: 60px;
-    margin-left: 10px;
-    color: #FFC312;
-}
-
-.social_icon span:hover{
-    color: white;
-    cursor: pointer;
-}
 
 .card-header h3{
     color: white;
@@ -80,10 +70,26 @@ input:focus{
     background-color: white;
 }
 
+.btn-block {
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.btn-block:hover{
+    color: black;
+    background-color: white;
+}
+
 .links{
     color: white;
 }
 
 .links a{
     margin-left: 4px;
+}
+
+#reg{
+
+    margin:2%;
 }
